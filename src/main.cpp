@@ -5,6 +5,21 @@
 const char* ssid = "your_SSID";
 const char* password = "your_PASSWORD";
 
+#define PIN_FAN_O 
+#define PIN_FAN_MD
+#define PIN_FAN_K
+#define PIN_TEMP_O
+#define PIN_TEMP_MD
+#define PIN_TEMP_K
+
+int fanSpeedO = 0;
+int fanSpeedMD = 0;
+int fanSpeedK = 0;
+
+int TEMP_O = 0;
+int TEMP_MD = 0;
+int TEMP_K = 0;
+
 // Create an instance of the server
 WebServer server(80);
 
